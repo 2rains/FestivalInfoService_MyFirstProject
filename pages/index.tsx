@@ -3,7 +3,6 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import React from "react";
 import { useEffect, useState } from "react";
-// import DeviceCard from "../components/DeviceCard";
 import Layout from "../components/Layout";
 import Modal from "../components/Modals/Modal";
 
@@ -54,6 +53,7 @@ const Home: NextPage = () => {
             <div className="text-gray-500:">
               Welcome back to festival information service
             </div>
+            <img src="img/fall.png" className="w-[900px] pt-40" />
             <body className="h-[100vh]"></body>
           </div>
         </div>
